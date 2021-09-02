@@ -1,0 +1,39 @@
+$moduleColor: greenyellow;
+
+$moduleFontWeight: 900;
+
+$moduleFont: 'Arial, Verdana, sans-serif';
+
+%moduleSchema {
+  background-color: purple;
+  color: greenyellow;
+}
+
+@mixin purpleHaze($fontSize: 24px) {
+  background-color: purple;
+  columns: greenyellow;
+  font-size: $fontSize;
+}
+
+@mixin crimsonThunder() {
+  background-color: crimson;
+  color: blueviolet;
+}
+
+.module {
+  // @include purpleHaze();
+  // @include crimsonThunder;
+  @extend %moduleSchema;
+  font-weight: $moduleFontWeight;
+  font: $moduleFont;
+  &:hover {
+    background-color: black;
+  }
+}
+
+.module2 {
+  @extend %moduleSchema;
+  font-family: $moduleFont;
+  border: 3px solid red;
+  margin: 20px 0;
+}

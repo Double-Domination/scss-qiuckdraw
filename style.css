@@ -1,0 +1,18 @@
+.module2, .module {
+  background-color: purple;
+  color: greenyellow;
+}
+
+.module {
+  font-weight: 900;
+  font: "Arial, Verdana, sans-serif";
+}
+.module:hover {
+  background-color: black;
+}
+
+.module2 {
+  font-family: "Arial, Verdana, sans-serif";
+  border: 3px solid red;
+  margin: 20px 0;
+}/*# sourceMappingURL=style.css.map */
