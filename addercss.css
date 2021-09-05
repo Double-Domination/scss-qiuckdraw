@@ -1,0 +1,15 @@
+.outer-block {
+  background-color: orange;
+  padding: 24px;
+  font-size: 2em;
+}
+
+.inner-block {
+  font-size: 200%;
+  background-color: greenyellow;
+  text-transform: capitalize;
+}
+
+div {
+  background-color: gold;
+}
