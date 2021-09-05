@@ -7,6 +7,11 @@
   font-weight: 900;
   font: "Arial, Verdana, sans-serif";
 }
+@media screen and (max-width: 500px) {
+  .module {
+    background-color: orange;
+  }
+}
 .module:hover {
   background-color: black;
 }
@@ -15,4 +20,23 @@
   font-family: "Arial, Verdana, sans-serif";
   border: 3px solid red;
   margin: 20px 0;
+}
+
+.hex-test {
+  background: #caa;
+}
+
+.outer-block {
+  margin: 25px;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+}
+
+#inner-block {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  text-decoration: line-through;
 }/*# sourceMappingURL=style.css.map */

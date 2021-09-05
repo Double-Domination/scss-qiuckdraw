@@ -9,6 +9,8 @@ $moduleFont: 'Arial, Verdana, sans-serif';
   color: greenyellow;
 }
 
+$mobile: 500px;
+$tablet: 700px;
 @mixin purpleHaze($fontSize: 24px) {
   background-color: purple;
   columns: greenyellow;
@@ -24,6 +26,9 @@ $moduleFont: 'Arial, Verdana, sans-serif';
   // @include purpleHaze();
   // @include crimsonThunder;
   @extend %moduleSchema;
+  @media screen and (max-width: $mobile) {
+    background-color: orange;
+  }
   font-weight: $moduleFontWeight;
   font: $moduleFont;
   &:hover {
@@ -37,3 +42,42 @@ $moduleFont: 'Arial, Verdana, sans-serif';
   border: 3px solid red;
   margin: 20px 0;
 }
+@function calculateMargins($var1, $var2) {
+  $margin: $var1-$var2;
+  @return $margin;
+}
+
+//================================================================
+
+.hex-test {
+  background: #caa;
+}
+
+.outer-block {
+  margin: 25px;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+}
+
+#inner-block {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  // animation-duration: 5s;
+  // animation-name: slide;
+  // animation-iteration-count: infinite;
+  text-decoration: line-through;
+}
+
+// @keyframes slide {
+//   from {
+//     margin-left: 100%;
+//     width: 300%;
+//   }
+//   to {
+//     margin-left: 0%;
+//     width: 100%;
+//   }
+// }
