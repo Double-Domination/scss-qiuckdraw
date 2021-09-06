@@ -61,9 +61,11 @@ while (assertI < 10) {
 }
 
 const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
-
+const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
+const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
+const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
+const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
 
 // console.table(assert2)
-
 
 // console.log(Math.min(10, 222, -5, 0, '-33'))
