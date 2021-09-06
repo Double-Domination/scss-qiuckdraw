@@ -68,4 +68,9 @@ const assert2 = [a || b, !a || b, a || !b, !a || !b, !(a || b), !(!a || !b)];
 
 // console.table(assert2)
 
+
+
+// console.table(assert2)
+
+
 // console.log(Math.min(10, 222, -5, 0, '-33'))
