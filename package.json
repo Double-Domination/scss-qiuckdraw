@@ -1,0 +1,23 @@
+{
+  "name": "scss-qiuckdraw",
+  "version": "1.0.0",
+  "description": "for education",
+  "main": "jjsester.js",
+  "dependencies": {
+    "jest": "^27.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Double-Domination/scss-qiuckdraw.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Double-Domination/scss-qiuckdraw/issues"
+  },
+  "homepage": "https://github.com/Double-Domination/scss-qiuckdraw#readme"
+}
