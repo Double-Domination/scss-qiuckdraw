@@ -43,9 +43,13 @@ class SyncroFase {
 
     return Object.fromEntries(result);
   }
+
+  group2(recivedArr, groupPredicate) {
+    return {};
+  }
 }
 
-let executor = new SyncroFase();
+// let executor = new SyncroFase();
 // console.log(
 //   executor.group([
 //     2.2, 9.1, 3, 2, 2, 4, 1.1, 2.1, 3.3, 1.1, 1, 1, 2.1, 5.1, 5.2,
